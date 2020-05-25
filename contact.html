@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Murphy Inspection</title>
+ 
+  <link rel="icon" href="assets/murphyFinishedLogoSmall.png">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/tgj0qdk.css">
+</head>
+<body>
+	<header>
+		<a href="index.html"><img id="murphyLogo" class="w3_image" src="assets/murphyFinishedLogoSmall.png" alt="Murphy Inspections Logo"></a>
+		<a href="http://www.homeinspector.org"><img id="ashiGold" class="w3-image" src="assets/ACI_Medium.png" alt="http://www.homeinspector.org"></a>
+		<nav>
+			<ul id="navList">
+				<li> <a class="navLinks" href="index.html">Home</a> </li>
+				<li> <a class="navLinks" href="services.html">Services</a> </li>
+				<li> <a class="navLinks" href="assets/webReport.pdf" target="blank">Sample Report</a> </li>
+				<li> <a class="navLinks" href="contact.html">Contact</a> </li>
+				<li> <a class="navLinks" href="tours.html">Ireland Tours</a> </li>
+			</ul>
+			<div class="w3-container halfColumn" id="dropNav">
+			  <div class="w3-dropdown-click">
+			    <button onclick="myFunction()" id="navButton" class="w3-button">Menu</button>
+			    <div id="dropMenu" class="w3-dropdown-content w3-bar-block w3-border">
+			      <a href="services.html" class="w3-bar-item w3-button">Services</a>
+			      <a href="webReport.pdf" class="w3-bar-item w3-button" target="blank">Sample Report</a>
+			      <a href="contact.html" class="w3-bar-item w3-button">Contact US</a>
+			       <a href="tours.html" class="w3-bar-item w3-button">Ireland Tours</a>
+			    </div>
+			  </div>
+			</div>
+		</nav>
+	</header>
+	<div id="wrapper">
+		<div id="contactHeadline">
+			<h1 class="orange">Contact Us</h1>
+		</div>
+		<div class="mainDivWhite" id="contactPage">
+			<div class="halfColumn">
+				<div id="contactInfo">
+					<h1>Brian Murphy</h1>
+					<h4>ASHI Certified Member #102749</h4>
+					1527 Mountain Maple Ave<br>
+					Highlands Ranch, CO 80129
+					<h2>Phone</h2>
+					<a href="tel:303-791-7824"><h3>303-791-7824</h3></a>
+					<h2>Email</h2>
+					<a href="mailto:brian@murphyinspection.com"><h3>brian@murphyinspection.com</h3></a>
+				</div>
+			</div>
+			<div class="halfColumn">
+				<img src="assets/ashiiExperience.gif" class="bodyImage" id="ashiiExperience" alt="Ashii Experience Logo">
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+				function myFunction() {
+		    var x = document.getElementById("dropMenu");
+		    if (x.className.indexOf("w3-show") == -1) {
+		        x.className += " w3-show";
+		    } else { 
+		        x.className = x.className.replace(" w3-show", "");
+		    }
+		}
+	</script>
+	<footer>
+		<p>
+			Murphy Home Inspection Services Inc. &copy;
+				<script type="text/javascript">
+				var d = new Date()
+				document.write(d.getFullYear())
+				</script>
+		</p>
+	</footer>
+</body>
+</html>

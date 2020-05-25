@@ -1,0 +1,352 @@
+#wrapper {
+width: 95%;
+height: auto;
+margin: auto;
+}
+body {
+	background-color: #fff;
+	margin: auto;
+	font-size: medium;
+	//width: 95%;
+}
+a {
+	text-decoration: none;
+}
+p {
+	font-size: 1.2em;
+	font-family: "roboto",sans-serif;
+}
+h1 {
+	font-size: 2.2em;
+	font-family: "roboto",sans-serif;
+}
+h2 {
+	font-size: 2em;
+	font-family: "roboto",sans-serif;
+}
+h3 {
+	font-size: 1.8em;
+	font-family: "roboto",sans-serif;
+}
+h4{
+	font-size:  1.6em;
+	font-family: "roboto",sans-serif;
+}
+h5 {
+	font-size: 1.4em;
+	font-family: "roboto",sans-serif;
+}
+.mainDivGreen {
+	width: 100%;
+	background-color: #008248;
+	color: #fff;
+	min-height: 500px;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.mainDivWhite {
+	width: 100%;
+	color:;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.oneThirdColumn {
+	float: left;
+	width: 30%;
+	margin: .5% 1.6%;
+}
+.twoThirdsColumn {
+	float: left;
+	width: 60%;
+	margin: .5% 1.6%;
+}
+.halfColumn {
+	float: left;
+	width: 50%;
+}
+.centeredHeadline {
+	margin: auto;
+	text-align: center;
+}
+
+.xxlHeadline {
+	margin: auto;
+	font-size: 2.9em;
+}
+.bodyImage {
+	max-width: 100%;
+	height: auto;
+	float: left;
+	margin: 10% 0;
+}
+
+.services {
+	float: left;
+	width: 50%;
+	text-align: center;
+	//margin: 3% auto;
+}
+
+.centerTestimonials {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0;
+	text-align: center;
+	max-width: 70%;
+	background-color: rgba(243, 243, 243, 0.8);
+	font-size: 1.2em;
+
+}
+.centerSlidePictures {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0;
+	text-align: center;
+	max-width: 70%;
+	font-size: 1.2em;
+}
+.imgWidth {
+	max-width: 100%;
+}
+.imageSliderSpacer {
+	min-height: 400px;
+}
+.orange {
+	color: #FF893C;
+}
+.houseBackground {
+	background-image: url("assets/pexels.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header {
+	height: 14%;
+	width: 100%;
+	margin-top: 15px;
+}
+#murphyLogo {
+	max-width: 100%;
+	margin-left: 2%;
+	float: left;
+}
+
+#ashiGold {
+	float: right;
+	margin-right: 2%;
+}
+
+nav {
+	width: 100%;
+	height: 3%;
+	clear: both;
+}
+
+#navList {
+	list-style-type: none;
+	margin: 0;
+	margin-top: 2%;
+	padding: 0;
+	overflow: hidden;
+	background-color: #008248;
+}
+
+#navList li {
+	float: left;
+	border-right: 3px solid #fff;
+	
+}
+ul > :first-child {
+	margin-left: 0.4%;
+}
+.navLinks {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	padding: 14px 16px;
+	text-align: center;
+}
+.navLinks:hover {
+	background-color: #FF893C;
+}
+#dropNav {
+	display: none;
+	background-color: #008248;
+}
+#navButton {
+	width: 100%;
+	background-color: #008248;
+	color: #fff;
+}
+#intro {
+	background-color: #fff;
+}
+#introText {
+	color: #000;
+	margin: 10% 4%;
+}
+#servicesIntro {
+	clear: both;
+}
+
+#serviceArea {
+	margin: 5% auto auto 6%;
+}
+#murphyInspectionPic {
+	margin: 7% 0;
+	float: right;
+}
+#smallScreenAshiDiv {
+	display: none;
+	height: 300px;
+	width: 100%;
+}
+#smallScreenAshi {
+	margin: 1% auto;
+	display: block;
+	max-width: 60%;
+}
+#testimonialSlider {
+	height: 300px;
+	width: 100%;
+	margin: auto;
+}
+#spaceContainer {
+	height: 25%;
+}
+#chooseUsHeadline{
+	background-color: #008248;
+}
+#ashiWhite {
+	margin: 4em auto;
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+/*services page*/
+#servicePageHeadline {
+	margin: .5% 2.5%;
+}
+
+/*Contact page*/
+#contactInfo {
+margin-left: 30%;
+}
+#contactHeadline {
+	width: 100%;
+	font-size: 2em;
+	border-bottom: solid 2px #000;
+}
+#contactHeadline h1{
+margin-left: 15%;
+}
+#ashiiExperience {
+	margin: 5% 0;
+}
+/* Tours Page */
+#toursHeadline {
+	margin: 1% 15%;
+	border-bottom: solid 2px #000;
+}
+#toursParagraph {
+	margin: 1% 15%;
+}
+#toursSlider {
+	min-height: 600px;
+}
+
+footer {
+	height: 50px;
+	text-align: center;
+	border-top: solid 2px #000;
+}
+@media only screen and (max-width: 1100px) {
+  body { 
+  	font-size: small; 
+  	text-align: center;
+  			}
+  	.halfColumn {
+  		width: 100%;
+  	}
+  	.oneThirdColumn {
+  		width: 100%;
+  	}
+  	.bodyImage {
+  		display: none;
+  	}
+  	#dropNav {
+  		display: none;
+  	}
+  	#introText {
+  		width: 90%;
+  		text-align: center;
+  	}
+  	#ashiWhite {
+  		display: none;
+  	}
+	#expertise, #ethics, #ashiWhiteDiv {
+		clear: both;
+		text-align: center;
+	}
+	#contactInfo {
+	margin: auto;
+	}
+	#contactHeadline h1 {
+	margin: auto;
+	}
+@media (max-width: 600px) {
+  body { 
+  		font-size: small;
+  		text-align: center;
+  			}
+  	.centerTestimonials {
+  		font-size: .9em;
+  	}
+  	#murphyLogo {
+  		float: none;
+  	}
+  	#ashiGold {
+  		display: none;
+  	}
+  	#navList {
+  		display: none;
+  	}
+  	#dropNav {
+  		display: inline-block;
+  		text-align: left;
+  	}
+  	#servicesIntro {
+  		height: 550px;
+  		text-align: center;
+  	}
+  	#chooseMe {
+  		height: 700px;
+  	}
+ }
+ @media (max-width: 400px) {
+ 	body {
+ 		font-size: small;
+ 		text-align: center;
+ 	}
+ 	#servicesIntro {
+ 		height: 650px;
+ 		text-align: center;
+ 	}
+
+ 	#chooseMe {
+ 		height: 900px;
+ 	}
+ 	#testimonialSlider {
+ 		display: none;
+ 	}
+ 	#smallScreenAshiDiv {
+ 		display: inline;
+ 	}
+
+ }
